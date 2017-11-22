@@ -1,6 +1,6 @@
 StereoImage
 ========
-　　StereoImage is an image effect for MikuMikuDance
+A fast implementation of Stereo Image for MikuMikuDance
 
 Requirements:
 -----------
