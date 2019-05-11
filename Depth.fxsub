@@ -16,7 +16,7 @@ void DepthObjectVS(
 	out float3 oTexcoord : TEXCOORD0,
 	out float4 oPosition : POSITION)
 {
-	oTexcoord = float3(Texcoord.xy, oPosition.w);
+	oTexcoord = float3(Texcoord.xy, Position.w);
 	oPosition = mul(Position, matWorldViewProject);
 }
 
